@@ -1,0 +1,13 @@
+
+.square {
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    width: 6.25%;
+    height: 150px
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
