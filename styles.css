@@ -1,13 +1,15 @@
 
+
+#container {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    
+
+}
+
 .square {
-    border-style: solid;
-    border-color: black;
-    box-sizing: border-box;
-    width: 6.25%;
-    height: 150px
+    border-style:solid ;
 }
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+
+
