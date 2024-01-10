@@ -2,14 +2,16 @@
 
 #container {
     display: grid;
-    height: 500px;
-    width: 500px;
-    
+    height: 400px;
+    width: 400px;
+    margin-left: 37%;
 
 }
 
 .square {
     border-style:solid ;
 }
-
+button {
+    margin-left: 45%;
+}
 
