@@ -1,17 +1,28 @@
-
+body {
+    background-color: black;
+}
 
 #container {
     display: grid;
     height: 400px;
     width: 400px;
-    margin-left: 37%;
 
 }
 
 .square {
     border-style:solid ;
+    border-color: rgba(239, 234, 234, 0.582);
 }
 button {
-    margin-left: 45%;
+    background-color: rgba(254, 254, 254, 0.874);
+    border-style: double;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    flex: 1;
 }
 
